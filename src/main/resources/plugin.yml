@@ -1,0 +1,21 @@
+name: CommandArguments
+version: '${project.version}'
+main: me.leos.commandarguments.CommandArguments
+api-version: 1.19
+
+commands:
+  repeat:
+    description: Repeat stuck back to you.
+  fart:
+    description: Farts on another player.
+    aliases:
+      - toot
+  message:
+    description: Send a message to another player.
+    aliases:
+      - w
+      - m
+  reply:
+    description: Reply to the most recently messaged player.
+    aliases:
+      - r
