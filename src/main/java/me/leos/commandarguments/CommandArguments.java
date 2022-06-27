@@ -11,8 +11,6 @@ public final class CommandArguments extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getCommand("repeat").setExecutor(new RepeatCommand());
-        getCommand("fart").setExecutor(new FartCommand());
         getCommand("message").setExecutor(new MessageCommand(this));
         getCommand("reply").setExecutor(new ReplyCommand(this));
 
